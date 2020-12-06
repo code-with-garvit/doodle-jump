@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+}
+
+.grid {
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  background-image: url('background.png');
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.doodler {
+  width: 87px;
+  height: 85px;
+  background-image: url('doodler.png');
+  position: absolute;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-image: url('base.png');
+  position: absolute;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+}
